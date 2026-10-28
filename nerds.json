@@ -1,5 +1,13 @@
 {
   "app": "figcraft",
   "upstream": "storytold/figcraft",
-  "name": "NERDS Proto"
+  "name": "NERDS Proto",
+  "upstream_name": "FigCraft",
+  "patches": [
+    {
+      "file": "crates/ui-egui/src/theme.rs",
+      "old": "    let fig = painter.layout_no_wrap(\"Fig\".into(), font.clone(), t.text);\n    let fig_width = fig.size().x;\n    painter.galley(egui::pos2(left_center.x, left_center.y - fig.size().y / 2.0), fig, t.text);\n    painter.text(egui::pos2(left_center.x + fig_width, left_center.y), egui::Align2::LEFT_CENTER, \"Craft\", font, t.accent_text);",
+      "new": "    let fig = painter.layout_no_wrap(\"NERDS\".into(), font.clone(), t.accent_text);\n    let fig_width = fig.size().x + size * 0.28;\n    painter.galley(egui::pos2(left_center.x, left_center.y - fig.size().y / 2.0), fig, t.accent_text);\n    painter.text(egui::pos2(left_center.x + fig_width, left_center.y), egui::Align2::LEFT_CENTER, \"Proto\", font, t.text);"
+    }
+  ]
 }
