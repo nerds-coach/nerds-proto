@@ -1,0 +1,203 @@
+NERDS Proto 0.13.1 for Windows x64 (x86_64-pc-windows-msvc): figcraft, figcraft-cli
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_kittest v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m clap_lex v1.1.1
+[1m[92m  Downloaded[0m clap v4.6.7
+[1m[92m  Downloaded[0m clap_derive v4.6.7
+[1m[92m  Downloaded[0m clap_builder v4.6.7
+[1m[92m  Downloaded[0m dirs v7.0.0
+[1m[92m  Downloaded[0m dirs-sys v0.5.0
+[1m[92m  Downloaded[0m fontique v0.11.1
+[1m[92m  Downloaded[0m heck v0.5.0
+[1m[92m  Downloaded[0m icu_segmenter v2.3.0
+[1m[92m  Downloaded[0m icu_segmenter_data v2.3.0
+[1m[92m  Downloaded[0m option-ext v0.2.0
+[1m[92m  Downloaded[0m parlance v0.1.1
+[1m[92m  Downloaded[0m strsim v0.11.1
+[1m[92m   Compiling[0m syn v3.0.9
+[1m[92m   Compiling[0m hashbrown v0.17.1
+[1m[92m   Compiling[0m windows-sys v0.61.2
+[1m[92m   Compiling[0m windows v0.62.2
+[1m[92m   Compiling[0m indexmap v2.14.2
+[1m[92m   Compiling[0m synstructure v0.14.0
+[1m[92m   Compiling[0m icu_segmenter_data v2.3.0
+[1m[92m   Compiling[0m parlance v0.1.1
+[1m[92m   Compiling[0m figcraft-text v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\text)
+[1m[92m   Compiling[0m serde_derive v1.0.229
+[1m[92m   Compiling[0m bytemuck_derive v1.12.1
+[1m[92m   Compiling[0m thiserror-impl v2.0.21
+[1m[92m   Compiling[0m bytemuck v1.25.2
+[1m[92m   Compiling[0m thiserror v2.0.21
+[1m[92m   Compiling[0m serde v1.0.229
+[1m[92m   Compiling[0m zerofrom-derive v0.1.8
+[1m[92m   Compiling[0m yoke-derive v0.8.4
+[1m[92m   Compiling[0m smallvec v1.16.4
+[1m[92m   Compiling[0m arrayvec v0.7.8
+[1m[92m   Compiling[0m polycool v0.4.0
+[1m[92m   Compiling[0m zerofrom v0.1.8
+[1m[92m   Compiling[0m zerovec-derive v0.11.7
+[1m[92m   Compiling[0m yoke v0.8.4
+[1m[92m   Compiling[0m kurbo v0.13.1
+[1m[92m   Compiling[0m displaydoc v0.2.7
+[1m[92m   Compiling[0m zerovec v0.11.9
+[1m[92m   Compiling[0m font-types v0.12.7
+[1m[92m   Compiling[0m cobs v0.3.0
+[1m[92m   Compiling[0m postcard v1.1.3
+[1m[92m   Compiling[0m read-fonts v0.41.0
+[1m[92m   Compiling[0m tinystr v0.8.5
+[1m[92m   Compiling[0m icu_locale_core v2.3.0
+[1m[92m   Compiling[0m zerotrie v0.2.5
+[1m[92m   Compiling[0m icu_provider v2.3.1
+[1m[92m   Compiling[0m potential_utf v0.1.6
+[1m[92m   Compiling[0m icu_collections v2.3.0
+[1m[92m   Compiling[0m safe_arch v0.7.4
+[1m[92m   Compiling[0m figcraft-color v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\color)
+[1m[92m   Compiling[0m wide v0.7.33
+[1m[92m   Compiling[0m figcraft-geom v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\geom)
+[1m[92m   Compiling[0m icu_locale_fallback v2.3.0
+[1m[92m   Compiling[0m imbl v7.0.2
+[1m[92m   Compiling[0m parking_lot_core v0.9.12
+[1m[92m   Compiling[0m image v0.25.10
+[1m[92m   Compiling[0m harfrust v0.12.0
+[1m[92m   Compiling[0m skrifa v0.44.0
+[1m[92m   Compiling[0m figcraft-doc v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\doc)
+[1m[92m   Compiling[0m parking_lot v0.12.5
+[1m[92m   Compiling[0m read-fonts v0.44.0
+[1m[92m   Compiling[0m skrifa v0.47.0
+[1m[92m   Compiling[0m fontique v0.11.1
+[1m[92m   Compiling[0m color v0.3.3
+[1m[92m   Compiling[0m tiny-skia-path v0.12.0
+[1m[92m   Compiling[0m peniko v0.6.1
+[1m[92m   Compiling[0m craft-font-catalog v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m linesweeper v0.4.0
+[1m[92m   Compiling[0m read-fonts v0.43.3
+[1m[92m   Compiling[0m font-types v0.11.3
+[1m[92m   Compiling[0m vello_common v0.2.0
+[1m[92m   Compiling[0m read-fonts v0.39.2
+[1m[92m   Compiling[0m figcraft-pathops v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\pathops)
+[1m[92m   Compiling[0m icu_segmenter v2.3.0
+[1m[92m   Compiling[0m figcraft-layout v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\layout)
+[1m[92m   Compiling[0m emath v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m zip v2.6.1
+[1m[92m   Compiling[0m naga-types v30.0.1
+[1m[92m   Compiling[0m harfrust v0.13.3
+[1m[92m   Compiling[0m figcraft-format v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\format)
+[1m[92m   Compiling[0m ecolor v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m vello_cpu v0.2.0
+[1m[92m   Compiling[0m tiny-skia v0.12.0
+[1m[92m   Compiling[0m epaint v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m figcraft-render v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\render)
+[1m[92m   Compiling[0m rustls-platform-verifier v0.7.1
+[1m[92m   Compiling[0m write-fonts v0.48.1
+[1m[92m   Compiling[0m skrifa v0.42.1
+[1m[92m   Compiling[0m icu_normalizer v2.3.0
+[1m[92m   Compiling[0m subsetter v0.2.6
+[1m[92m   Compiling[0m ureq v3.5.0
+[1m[92m   Compiling[0m rustybuzz v0.20.1
+[1m[92m   Compiling[0m naga v30.0.1
+[1m[92m   Compiling[0m egui v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m icu_properties v2.3.0
+[1m[92m   Compiling[0m wgpu-types v30.0.1
+[1m[92m   Compiling[0m svgtypes v0.16.1
+[1m[92m   Compiling[0m craft-atomic v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m usvg v0.48.1
+[1m[92m   Compiling[0m gpu-allocator v0.28.0
+[1m[92m   Compiling[0m krilla v0.8.2 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m wgpu-naga-bridge v30.0.1
+[1m[92m   Compiling[0m winapi-util v0.1.11
+[1m[92m   Compiling[0m wgpu-hal v30.0.1
+[1m[92m   Compiling[0m anstyle-wincon v3.0.11
+[1m[92m   Compiling[0m same-file v1.0.6
+[1m[92m   Compiling[0m figcraft-plugin v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\plugin)
+[1m[92m   Compiling[0m figcraft-pdf v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\pdf)
+[1m[92m   Compiling[0m figcraft-svg v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\svg)
+[1m[92m   Compiling[0m craft-font-store v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m figcraft-collab v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\collab)
+[1m[92m   Compiling[0m figcraft-vectordrawable v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\vectordrawable)
+[1m[92m   Compiling[0m fixed_decimal v0.7.3
+[1m[92m   Compiling[0m anstyle-query v1.1.5
+[1m[92m   Compiling[0m craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m anstream v1.0.0
+[1m[92m   Compiling[0m winit v0.30.13 (https://github.com/storytold/winit.git?rev=a517b3846ee8457d84ee4975110bfda6797c44dc#a517b384)
+[1m[92m   Compiling[0m wgpu-core-deps-windows-linux-android v30.0.1
+[1m[92m   Compiling[0m accesskit_consumer v0.39.2
+[1m[92m   Compiling[0m tungstenite v0.30.0
+[1m[92m   Compiling[0m figcraft-engine v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\engine)
+[1m[92m   Compiling[0m accesskit_windows v0.35.2
+[1m[92m   Compiling[0m wgpu-core v30.0.1
+[1m[92m   Compiling[0m icu_decimal v2.3.0
+[1m[92m   Compiling[0m icu_plurals v2.3.0
+[1m[92m   Compiling[0m idna_adapter v1.2.2
+[1m[92m   Compiling[0m icu_provider_adapters v2.3.0
+[1m[92m   Compiling[0m icu_provider_blob v2.3.0
+[1m[92m   Compiling[0m enum-map-derive v1.0.1
+[1m[92m   Compiling[0m winnow v1.0.4
+[1m[92m   Compiling[0m option-ext v0.2.0
+[1m[92m   Compiling[0m zip v9.1.1
+[1m[92m   Compiling[0m wgpu v30.0.1
+[1m[92m   Compiling[0m dirs-sys v0.5.0
+[1m[92m   Compiling[0m craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m toml_parser v1.1.5+spec-1.1.0
+[1m[92m   Compiling[0m figcraft-collab-net v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\collab-net)
+[1m[92m   Compiling[0m tempfile v3.27.0
+[1m[92m   Compiling[0m enum-map v3.1.0
+[1m[92m   Compiling[0m idna v1.1.0
+[1m[92m   Compiling[0m accesskit_winit v0.34.2
+[1m[92m   Compiling[0m figcraft-ui-egui v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\ui-egui)
+[1m[92m   Compiling[0m arboard v3.7.0
+[1m[92m   Compiling[0m verifysign v1.0.1
+[1m[92m   Compiling[0m serde_spanned v1.1.2
+[1m[92m   Compiling[0m toml_datetime v1.1.2+spec-1.1.0
+[1m[92m   Compiling[0m heck v0.5.0
+[1m[92m   Compiling[0m toml_writer v1.1.3+spec-1.1.0
+[1m[92m   Compiling[0m strsim v0.11.1
+[1m[92m   Compiling[0m clap_lex v1.1.1
+[1m[92m   Compiling[0m craft-fonts-build v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m clap_builder v4.6.7
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=04aa1703b32d299e54f78fcde4182f2b393a9116#04aa1703)
+[1m[92m   Compiling[0m toml_edit v0.25.17+spec-1.1.0
+[1m[92m   Compiling[0m clap_derive v4.6.7
+[1m[92m   Compiling[0m egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m url v2.5.8
+[1m[92m   Compiling[0m figcraft v0.13.1 (D:\a\nerds-proto\nerds-proto\apps\figcraft)
+[1m[92m   Compiling[0m egui-winit v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m dirs v7.0.0
+[1m[92m   Compiling[0m figcraft-cli v0.13.1 (D:\a\nerds-proto\nerds-proto\apps\figcraft-cli)
+[1m[92m   Compiling[0m eframe v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m craft-settings v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m   Compiling[0m env_logger v0.11.11
+[1m[92m   Compiling[0m webbrowser v1.2.5
+[1m[92m   Compiling[0m clap v4.6.7
+[1m[92m   Compiling[0m rfd v0.17.2
+[1m[92m   Compiling[0m figcraft-mcp v0.13.1 (D:\a\nerds-proto\nerds-proto\crates\mcp)
+[1m[92m   Compiling[0m craft-window v0.1.0 (https://github.com/storytold/craft-libs?rev=e11f9d9aebea5f6b8e74643c1ea1ed172ba5f545#e11f9d9a)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 10m 39s
+ok figcraft.exe: x64, PE subsystem 2
+ok figcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-proto\nerds-proto\target\windows-package\x64\figcraft.exe, D:\a\nerds-proto\nerds-proto\target\windows-package\x64\figcraft-cli.exe
+Windows shortcut icon references ok
+==> wix build
+==> MSI shortcut icon validation (ICE50)
+PASS FigCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-proto\nerds-proto\dist\release\figcraft-0.13.1-windows-x64.msi
+==> figcraft-cli.exe --version
+figcraft-cli 0.13.1
+
+[32;1mName                                    [0m[32;1m    Length[0m
+[32;1m----                                    [0m [32;1m   ------[0m
+figcraft-0.13.1-windows-x64.msi           80306176
+figcraft-0.13.1-windows-x64-portable.zip 100876221
+
