@@ -1,0 +1,126 @@
+NERDS names: 119 changes, 5 kept, 0 warnings
+
+rust  apps/figcraft-cli/src/files.rs:324  "{out} wasn't written: {images_left_out} of its images weren't loaded (together they pass w" -> "{out} wasn't written: {images_left_out} of its images weren't loaded (together they pass w"
+rust  apps/figcraft-cli/src/main.rs:154  "can't reach the FigCraft app at {addr}: {e} (start it with `figcraft --control PORT`)" -> "can't reach the NERDS Proto app at {addr}: {e} (start it with `figcraft --control PORT`)"
+rust  apps/figcraft-server/src/cli.rs:22  "\\\nfigcraft-server: FigCraft's collaboration server (files, share links, live sessions)\n\nUs" -> "\\\nfigcraft-server: NERDS Proto's collaboration server (files, share links, live sessions)\n"
+rust  apps/figcraft-server/src/cli.rs:349  'Publish to this address (in FigCraft: File > Publish to server…):' -> 'Publish to this address (in NERDS Proto: File > Publish to server…):'
+rust  apps/figcraft-server/src/cli.rs:379  'No files yet (publish one from FigCraft: File > Publish to server…).\\n' -> 'No files yet (publish one from NERDS Proto: File > Publish to server…).\\n'
+rust  apps/figcraft-server/src/store/backend.rs:136  'wrong server key (this server is open to the public: publish without a key, with an up-to-' -> 'wrong server key (this server is open to the public: publish without a key, with an up-to-'
+rust  apps/figcraft/build.rs:13  'FigCraft' -> 'NERDS Proto'
+rust  apps/figcraft/build.rs:14  'FigCraft' -> 'NERDS Proto'
+rust  apps/figcraft/build.rs:15  'ArtCraft' -> 'NERDS Craft'
+rust  apps/figcraft/src/control_server.rs:72  'the FigCraft window closed before answering' -> 'the NERDS Proto window closed before answering'
+rust  apps/figcraft/src/control_server.rs:77  'timed out waiting for the UI: screenshots and input need the FigCraft window on screen (is' -> 'timed out waiting for the UI: screenshots and input need the NERDS Proto window on screen '
+rust  apps/figcraft/src/control_server.rs:111  'FigCraft control server failed to bind port {port}: {e}' -> 'NERDS Proto control server failed to bind port {port}: {e}'
+rust  apps/figcraft/src/control_server.rs:115  'FigCraft control server listening on 127.0.0.1:{port}' -> 'NERDS Proto control server listening on 127.0.0.1:{port}'
+rust  apps/figcraft/src/main.rs:147  'FigCraft {}{}' -> 'NERDS Proto {}{}'
+rust  apps/figcraft/src/main.rs:156  'FigCraft: unknown option {flag}\\nUsage: figcraft [--control PORT] [--automation-read-root ' -> 'NERDS Proto: unknown option {flag}\\nUsage: figcraft [--control PORT] [--automation-read-ro'
+rust  apps/figcraft/src/main.rs:167  'FigCraft: {e}' -> 'NERDS Proto: {e}'
+rust  apps/figcraft/src/main.rs:252  'FigCraft' -> 'NERDS Proto'
+kept  apps/figcraft/src/main.rs:281  "FigCraft",
+rust  apps/figcraft/src/main.rs:294  'FigCraft' -> 'NERDS Proto'
+kept  apps/figcraft/src/services.rs:32  const APP_ID: &str = "FigCraft";
+rust  apps/figcraft/src/services.rs:442  'FigCraft (.figcraft)' -> 'NERDS Proto (.figcraft)'
+rust  apps/figcraft/src/startup.rs:24  'FigCraft' -> 'NERDS Proto'
+rust  crates/collab-net/src/guest.rs:198  "{} doesn't answer as a FigCraft session: {e}" -> "{} doesn't answer as a NERDS Proto session: {e}"
+rust  crates/collab-net/src/manage.rs:183  "{} doesn't answer as a FigCraft server: {e}" -> "{} doesn't answer as a NERDS Proto server: {e}"
+rust  crates/collab-net/src/web.rs:145  'this page was loaded over https, and browsers block unencrypted ws:// connections; use a w' -> 'this page was loaded over https, and browsers block unencrypted ws:// connections; use a w'
+rust  crates/engine/src/catalog.rs:267  'About FigCraft' -> 'About NERDS Proto'
+rust  crates/engine/src/cmd/comment.rs:601  '# FigCraft feedback\\n' -> '# NERDS Proto feedback\\n'
+rust  crates/engine/src/cmd/comment.rs:612  'Fix these comments in the FigCraft document. For each thread:' -> 'Fix these comments in the NERDS Proto document. For each thread:'
+rust  crates/engine/src/cmd/file.rs:79  '{path | data (base64) + name (tells the format; opens as a new unsaved document), variable' -> '{path | data (base64) + name (tells the format; opens as a new unsaved document), variable'
+rust  crates/engine/src/cmd/file/load.rs:642  'Penpot: {count} font family/families are not installed or embedded: {names}{extra}. FigCra' -> 'Penpot: {count} font family/families are not installed or embedded: {names}{extra}. NERDS '
+rust  crates/engine/src/cmd/file/save.rs:109  "{} wasn't saved: {count} of its images weren't loaded (together they pass what FigCraft re" -> "{} wasn't saved: {count} of its images weren't loaded (together they pass what NERDS Proto"
+rust  crates/engine/src/cmd/variables_io.rs:227  "// Variables exported from FigCraft.\\n\\nimport 'dart:ui';\\n" -> "// Variables exported from NERDS Proto.\\n\\nimport 'dart:ui';\\n"
+rust  crates/engine/src/cmd/view.rs:463  'About FigCraft' -> 'About NERDS Proto'
+rust  crates/engine/src/sharing/invite_links.rs:75  'Open invite links in FigCraft' -> 'Open invite links in NERDS Proto'
+rust  crates/engine/src/sharing/live/host.rs:270  "join a file on a FigCraft server first: reports go to that server's operator" -> "join a file on a NERDS Proto server first: reports go to that server's operator"
+rust  crates/format/src/fig/export/layer.rs:54  'strokes wider on one side of their path were written as filled outlines (the stroke itself' -> 'strokes wider on one side of their path were written as filled outlines (the stroke itself'
+rust  crates/format/src/fig/map/connector.rs:100  "elbowed and curved connectors without a saved path follow FigCraft's own routing" -> "elbowed and curved connectors without a saved path follow NERDS Proto's own routing"
+rust  crates/format/src/lib.rs:97  'not a valid FigCraft file: {e}' -> 'not a valid NERDS Proto file: {e}'
+rust  crates/format/src/lib.rs:98  'this file was saved by a newer FigCraft (format version {v})' -> 'this file was saved by a newer NERDS Proto (format version {v})'
+rust  crates/format/src/lib.rs:486  'a FigCraft document object' -> 'a NERDS Proto document object'
+rust  crates/format/src/penpot.rs:649  'FigCraft document has {} remaining structural issue(s) after Penpot import; review before ' -> 'NERDS Proto document has {} remaining structural issue(s) after Penpot import; review befo'
+rust  crates/format/src/penpot.rs:1378  'property has no FigCraft binding' -> 'property has no NERDS Proto binding'
+rust  crates/format/src/penpot.rs:1384  'property has no FigCraft binding' -> 'property has no NERDS Proto binding'
+rust  crates/format/src/penpot.rs:1423  'Linked {linked} Penpot token reference(s) to native FigCraft properties (colors, sizes, ga' -> 'Linked {linked} Penpot token reference(s) to native NERDS Proto properties (colors, sizes,'
+rust  crates/format/src/penpot.rs:2438  'Penpot themes and active set combinations are preserved as source metadata, not editable F' -> 'Penpot themes and active set combinations are preserved as source metadata, not editable N'
+rust  crates/format/src/penpot/prototype.rs:201  "Penpot interaction with event type '{}' has no FigCraft equivalent and was skipped" -> "Penpot interaction with event type '{}' has no NERDS Proto equivalent and was skipped"
+rust  crates/format/src/penpot/prototype.rs:206  "Penpot interaction with action type '{}' has no FigCraft equivalent and was skipped" -> "Penpot interaction with action type '{}' has no NERDS Proto equivalent and was skipped"
+rust  crates/format/src/penpot/prototype.rs:213  "Penpot interaction with action type '{}' has no FigCraft equivalent and was skipped" -> "Penpot interaction with action type '{}' has no NERDS Proto equivalent and was skipped"
+rust  crates/format/src/penpot/prototype.rs:305  'Imported {mapped} Penpot prototype connection(s) as working FigCraft interactions' -> 'Imported {mapped} Penpot prototype connection(s) as working NERDS Proto interactions'
+rust  crates/format/src/rest/props.rs:200  "image filters use FigCraft's approximate renderer" -> "image filters use NERDS Proto's approximate renderer"
+rust  crates/format/src/sketch.rs:173  "the file has embedded fonts FigCraft doesn't use ({}); install them to see the text as des" -> "the file has embedded fonts NERDS Proto doesn't use ({}); install them to see the text as "
+rust  crates/format/src/sketch.rs:217  'not a valid FigCraft file: ' -> 'not a valid NERDS Proto file: '
+rust  crates/format/src/sketch.rs:237  'not a valid FigCraft file: ' -> 'not a valid NERDS Proto file: '
+rust  crates/format/src/sketch/proto.rs:56  "export settings in formats FigCraft doesn't export (TIFF, EPS, HEIC) were skipped" -> "export settings in formats NERDS Proto doesn't export (TIFF, EPS, HEIC) were skipped"
+rust  crates/format/src/sketch/proto.rs:117  'overrides Sketch symbols locked can be changed in FigCraft' -> 'overrides Sketch symbols locked can be changed in NERDS Proto'
+rust  crates/mcp/src/backend.rs:185  'FigCraft app at {} is not reachable: {e} (request was not sent; start it with `figcraft --' -> 'NERDS Proto app at {} is not reachable: {e} (request was not sent; start it with `figcraft'
+rust  crates/mcp/src/backend.rs:192  'FigCraft control call `{method}` at {} failed: {e}; the operation may have completed. Insp' -> 'NERDS Proto control call `{method}` at {} failed: {e}; the operation may have completed. I'
+rust  crates/mcp/src/backend.rs:209  'attached to the FigCraft app at {}' -> 'attached to the NERDS Proto app at {}'
+rust  crates/mcp/src/prompts.rs:33  'Design a {screen} screen for a mobile app in FigCraft.\\n\\n1. run_command frame.create {\\"p' -> 'Design a {screen} screen for a mobile app in NERDS Proto.\\n\\n1. run_command frame.create {'
+rust  crates/mcp/src/prompts.rs:44  'Set up the \\"{name}\\" design system in FigCraft.\\n\\n1. Variables: run_command variable.cre' -> 'Set up the \\"{name}\\" design system in NERDS Proto.\\n\\n1. Variables: run_command variable.'
+rust  crates/mcp/src/prompts.rs:56  'Design a landing page for {product} in FigCraft.\\n\\n1. create_node a frame {\\"type\\": \\"fr' -> 'Design a landing page for {product} in NERDS Proto.\\n\\n1. create_node a frame {\\"type\\": \\'
+rust  crates/mcp/src/prompts.rs:75  'Build a clickable prototype in FigCraft with these screens, in order: {screens}.\\n\\n1. If ' -> 'Build a clickable prototype in NERDS Proto with these screens, in order: {screens}.\\n\\n1. '
+rust  crates/mcp/src/prompts.rs:87  'Fix the open comment threads in this FigCraft document.\n\n1. Read them: run_command {"comma' -> 'Fix the open comment threads in this NERDS Proto document.\n\n1. Read them: run_command {"co'
+rust  crates/mcp/src/prompts.rs:104  'Watch for new feedback in this FigCraft document for {minutes} minutes.\n\n1. Start the watc' -> 'Watch for new feedback in this NERDS Proto document for {minutes} minutes.\n\n1. Start the w'
+rust  crates/mcp/src/resources.rs:21  'Every FigCraft command with label, menu, shortcut and parameter docs.' -> 'Every NERDS Proto command with label, menu, shortcut and parameter docs.'
+rust  crates/mcp/src/server.rs:31  'FigCraft is an interface design tool (Figma-class): pages hold frames, \\\ngroups, shapes, t' -> 'NERDS Proto is an interface design tool (Figma-class): pages hold frames, \\\ngroups, shapes'
+kept  crates/mcp/src/server.rs:260  "serverInfo": {"name": "figcraft", "title": "FigCraft", "version": env!("CARGO_PKG_VERSION")},
+rust  crates/mcp/src/tools.rs:155  'List FigCraft commands: id, label, menu path, shortcut, whether it is undoable, and a para' -> 'List NERDS Proto commands: id, label, menu path, shortcut, whether it is undoable, and a p'
+rust  crates/mcp/src/tools.rs:162  'Execute one FigCraft command by id with JSON params (ids and params from list_commands). M' -> 'Execute one NERDS Proto command by id with JSON params (ids and params from list_commands)'
+rust  crates/mcp/src/tools.rs:306  'Open a .figcraft or .json document (FigCraft or REST API file JSON), a .fig or .sketch fil' -> 'Open a .figcraft or .json document (NERDS Proto or REST API file JSON), a .fig or .sketch '
+rust  crates/mcp/src/tools.rs:376  'Wait for new comment events in the attached FigCraft app. Returns pending events immediate' -> 'Wait for new comment events in the attached NERDS Proto app. Returns pending events immedi'
+kept  crates/pdf/src/lib.rs:166  let mut meta = krilla::metadata::Metadata::new().creator("FigCraft".into()).producer("FigCraft".into());
+kept  crates/pdf/src/lib.rs:166  let mut meta = krilla::metadata::Metadata::new().creator("FigCraft".into()).producer("FigCraft".into());
+rust  crates/plugin/src/bundle.rs:161  "that isn't a FigCraft plugin bundle" -> "that isn't a NERDS Proto plugin bundle"
+rust  crates/plugin/src/manifest.rs:348  "plugin API {} isn't supported (this FigCraft runs API {API_VERSION})" -> "plugin API {} isn't supported (this NERDS Proto runs API {API_VERSION})"
+rust  crates/plugin/src/sandbox.rs:299  "it imports `{}.{}`, which FigCraft doesn't provide (plugins get no file system, network or" -> "it imports `{}.{}`, which NERDS Proto doesn't provide (plugins get no file system, network"
+rust  crates/ui-egui/src/dialogs.rs:53  'FigCraft tried {apis}, then again with lower requirements on the power-saving GPU. Updatin' -> 'NERDS Proto tried {apis}, then again with lower requirements on the power-saving GPU. Upda'
+rust  crates/ui-egui/src/dialogs.rs:57  'WGPU_BACKEND is set and names the graphics API to use; unsetting it lets FigCraft choose.' -> 'WGPU_BACKEND is set and names the graphics API to use; unsetting it lets NERDS Proto choos'
+rust  crates/ui-egui/src/dialogs.rs:66  'Updating the graphics driver often helps. To use OpenGL only, start FigCraft from a Comman' -> 'Updating the graphics driver often helps. To use OpenGL only, start NERDS Proto from a Com'
+rust  crates/ui-egui/src/dialogs.rs:77  "FigCraft couldn't open its window: {error}" -> "NERDS Proto couldn't open its window: {error}"
+rust  crates/ui-egui/src/dialogs.rs:217  'About FigCraft' -> 'About NERDS Proto'
+rust  crates/ui-egui/src/dialogs.rs:265  'Open invite links in FigCraft' -> 'Open invite links in NERDS Proto'
+rust  crates/ui-egui/src/dialogs.rs:289  'Back to the FigCraft server' -> 'Back to the NERDS Proto server'
+rust  crates/ui-egui/src/dialogs/import_report.rs:161  "FigCraft doesn't support every feature of these files yet. The notes list what was left ou" -> "NERDS Proto doesn't support every feature of these files yet. The notes list what was left"
+rust  crates/ui-egui/src/dialogs/plugins_ui.rs:500  "Plugins run in FigCraft's sandbox, without files, network or clock. Install only plugins y" -> "Plugins run in NERDS Proto's sandbox, without files, network or clock. Install only plugin"
+rust  crates/ui-egui/src/dialogs/updates_ui.rs:97  'FigCraft {version} is currently the newest version available.' -> 'NERDS Proto {version} is currently the newest version available.'
+rust  crates/ui-egui/src/home/online.rs:313  'Link copied: it opens the file in FigCraft' -> 'Link copied: it opens the file in NERDS Proto'
+rust  crates/ui-egui/src/live.rs:35  'In the browser you can join sessions the desktop app hosts and files on a FigCraft server.' -> 'In the browser you can join sessions the desktop app hosts and files on a NERDS Proto serv'
+rust  crates/ui-egui/src/live.rs:1055  'An invite link that opens FigCraft and joins' -> 'An invite link that opens NERDS Proto and joins'
+rust  crates/ui-egui/src/live.rs:1346  'Uploads this file to a FigCraft server and keeps this tab in sync with it. You get a link ' -> 'Uploads this file to a NERDS Proto server and keeps this tab in sync with it. You get a li'
+rust  crates/ui-egui/src/panels/dev_compare.rs:242  "What this changed from isn't known: it changed before FigCraft kept a copy of ready-for-de" -> "What this changed from isn't known: it changed before NERDS Proto kept a copy of ready-for"
+rust  crates/ui-egui/src/services.rs:144  'FigCraft stopped because of an internal error.' -> 'NERDS Proto stopped because of an internal error.'
+rust  crates/ui-egui/src/toolbar.rs:346  'About FigCraft' -> 'About NERDS Proto'
+rust  crates/ui-egui/src/windows.rs:194  '{}{} – FigCraft' -> '{}{} – NERDS Proto'
+rust  crates/ui-egui/src/windows.rs:195  'FigCraft' -> 'NERDS Proto'
+i18n  crates/ui-egui/locales/ar.toml  (17 lines)
+i18n  crates/ui-egui/locales/bn.toml  (14 lines)
+i18n  crates/ui-egui/locales/bs.toml  (17 lines)
+i18n  crates/ui-egui/locales/cs.toml  (12 lines)
+i18n  crates/ui-egui/locales/de.toml  (17 lines)
+i18n  crates/ui-egui/locales/en.toml  (18 lines)
+i18n  crates/ui-egui/locales/es.toml  (16 lines)
+i18n  crates/ui-egui/locales/fi.toml  (18 lines)
+i18n  crates/ui-egui/locales/fr.toml  (16 lines)
+i18n  crates/ui-egui/locales/id.toml  (12 lines)
+i18n  crates/ui-egui/locales/it.toml  (16 lines)
+i18n  crates/ui-egui/locales/ja.toml  (16 lines)
+i18n  crates/ui-egui/locales/ka.toml  (17 lines)
+i18n  crates/ui-egui/locales/ko.toml  (16 lines)
+i18n  crates/ui-egui/locales/nl.toml  (16 lines)
+i18n  crates/ui-egui/locales/pl.toml  (16 lines)
+i18n  crates/ui-egui/locales/pt-BR.toml  (16 lines)
+i18n  crates/ui-egui/locales/ru.toml  (16 lines)
+i18n  crates/ui-egui/locales/sv.toml  (20 lines)
+i18n  crates/ui-egui/locales/th.toml  (16 lines)
+i18n  crates/ui-egui/locales/tr.toml  (12 lines)
+i18n  crates/ui-egui/locales/vi.toml  (16 lines)
+i18n  crates/ui-egui/locales/zh-Hans.toml  (16 lines)
+win   packaging/windows/figcraft.wxs  (12 lines)
+win   packaging/windows/install-policy.json  (1 lines)
+win   packaging/windows/package.ps1  (1 lines)
+mac   packaging/macos/Info.plist.in  (4 lines)
+mac   packaging/macos/package.sh  (5 lines)
+patch crates/ui-egui/src/theme.rs: '    let fig = painter.layout_no_wrap("Fig".into(), font.clon' -> '    let fig = painter.layout_no_wrap("NERDS".into(), font.cl'
