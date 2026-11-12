@@ -1,0 +1,47 @@
+NERDS Proto 0.18.1 for Windows x64 (x86_64-pc-windows-msvc): figcraft, figcraft-cli
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m crates.io index
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_kittest v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m figcraft-color v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\color)
+[1m[92m   Compiling[0m figcraft-geom v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\geom)
+[1m[92m   Compiling[0m figcraft-text v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\text)
+[1m[92m   Compiling[0m figcraft-ui-egui v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\ui-egui)
+[1m[92m   Compiling[0m figcraft-doc v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\doc)
+[1m[92m   Compiling[0m figcraft-plugin v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\plugin)
+[1m[92m   Compiling[0m figcraft v0.18.1 (D:\a\nerds-proto\nerds-proto\apps\figcraft)
+[1m[92m   Compiling[0m figcraft-cli v0.18.1 (D:\a\nerds-proto\nerds-proto\apps\figcraft-cli)
+[1m[92m   Compiling[0m figcraft-layout v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\layout)
+[1m[92m   Compiling[0m figcraft-pathops v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\pathops)
+[1m[92m   Compiling[0m figcraft-format v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\format)
+[1m[92m   Compiling[0m figcraft-collab v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\collab)
+[1m[92m   Compiling[0m figcraft-render v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\render)
+[1m[92m   Compiling[0m figcraft-vectordrawable v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\vectordrawable)
+[1m[92m   Compiling[0m figcraft-pdf v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\pdf)
+[1m[92m   Compiling[0m figcraft-svg v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\svg)
+[1m[92m   Compiling[0m figcraft-engine v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\engine)
+[1m[92m   Compiling[0m figcraft-collab-net v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\collab-net)
+[1m[92m   Compiling[0m figcraft-mcp v0.18.1 (D:\a\nerds-proto\nerds-proto\crates\mcp)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 14m 32s
+ok figcraft.exe: x64, PE subsystem 2
+ok figcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-proto\nerds-proto\target\windows-package\x64\figcraft.exe, D:\a\nerds-proto\nerds-proto\target\windows-package\x64\figcraft-cli.exe
+Windows shortcut icon references ok
+==> wix build
+==> MSI shortcut icon validation (ICE50)
+PASS FigCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-proto\nerds-proto\dist\release\figcraft-0.18.1-windows-x64.msi
+==> figcraft-cli.exe --version
+figcraft-cli 0.18.1
+
+[32;1mName                                    [0m[32;1m    Length[0m
+[32;1m----                                    [0m [32;1m   ------[0m
+figcraft-0.18.1-windows-x64.msi           81149952
+figcraft-0.18.1-windows-x64-portable.zip 102008001
+
