@@ -1,0 +1,9 @@
+total 375716
+-rw-r--r-- 1 runner runner       413 Nov 12 15:41 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 110865652 Nov 12 15:41 figcraft-0.18.1-macos-universal.dmg
+-rw-r--r-- 1 runner runner 102008001 Nov 12 15:41 figcraft-0.18.1-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner  81149952 Nov 12 15:41 figcraft-0.18.1-windows-x64.msi
+-rw-r--r-- 1 runner runner  90700122 Nov 12 15:41 figcraft-cli-0.18.1-macos-universal.zip
+681 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-proto/releases/tag/untagged-de8270f85ab21038aeab
+https://github.com/nerds-coach/nerds-proto/releases/tag/v0.18.1
