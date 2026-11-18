@@ -1,0 +1,3 @@
+run: https://github.com/nerds-coach/nerds-proto/actions/runs/44347896823
+commit: 49a425291b6241263ec4c0a932c5a5238bc6c7f3
+job: publish
